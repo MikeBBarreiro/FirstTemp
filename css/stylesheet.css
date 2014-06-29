@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300);
+
+.h1welcom {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    margin-top: px
+};
+
+p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+ color: black;
+    font-family: cursive;
+    font-size: 16px;
+}
+a:visited {
+    color:  ;
+}
+
+.Bodydiv {
+    font-family: 'Lato', sans-serif;
+    height: 1000px;
+    width: 600px;
+    background-color: rgba(115,203,250, .9); 
+/*    CDD3D4*/
+    border-radius: 5%;
+    margin: auto;
+    
+    
+}
+body {
+    background-image: url("http://www.w8themes.com/wp-content/uploads/2013/11/White-Desktop-Backgrounds.jpg");
+    background-image: center;
+    background-image: 100% 100%;
+}
+  
+.mepic {
+    border-radius: 5%;
+    position: relative;
+    left: 180px;
+    top: -85px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: -900px;
+    margin-left: 30px;
+}
+
+tr {
+    border-style: solid;
+    border-color: black;
+}
+
+.Divider1 {
+    height: 10%;
+    width: 50%;
+    top: -50px;
+    margin-left: 155px;
+    position: relative;
+}
+
+.Divider2 {
+    height: 2%;
+    width: 95%;
+    position: relative;
+    top: -40px;
+    left: 15px;
+}
