@@ -21,7 +21,7 @@ p {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 120px;
+    margin-top: 100px;
     
 }
 
@@ -63,7 +63,7 @@ body {
     border-radius: 5%;
     position: relative;
     left: 160px;
-    top: 8px;
+    top: -15px;
 }
 
 ul {
@@ -80,8 +80,8 @@ tr {
 .Divider1 {
     height: 10%;
     width: 50%;
-    top: 55px;
-    margin-left: 155px;
+    top: 35px;
+    margin-left: 150px;
     position: relative;
 }
 
@@ -89,6 +89,6 @@ tr {
     height: 2%;
     width: 95%;
     position: relative;
-    top: 80px;
+    top: 45px;
     left: 15px;
 }
