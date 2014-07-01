@@ -21,7 +21,7 @@
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 100px;
+    margin-top: 45px;
     
 }
 
@@ -61,7 +61,7 @@ body {
     border-radius: 5%;
     position: relative;
     left: 160px;
-    top: -20px;
+    top: -60px;
     border: 2px solid #35C0E8;
     
 }
@@ -80,7 +80,7 @@ tr {
 .Divider1 {
     height: 10%;
     width: 50%;
-    top: 20px;
+    top: 10px;
     margin-left: 150px;
     position: relative;
 }
@@ -89,7 +89,7 @@ tr {
     height: 2%;
     width: 95%;
     position: relative;
-    top: 45px;
+    top: -5px;
     left: 10px;
 }
 
@@ -97,7 +97,7 @@ tr {
     Height: 70px;
     width: 600px;
     background-color: rgba(53, 192, 232, .4 );
-    margin-top: 183px;
+    margin-top: 237px;
     border-bottom-left-radius: 34px;
     border-bottom-right-radius: 34px;
     position: relative;
