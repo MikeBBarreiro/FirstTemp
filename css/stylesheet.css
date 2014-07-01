@@ -4,10 +4,9 @@
     height: 70px;
     width:600px;
     background-color: rgba(53, 192, 232, .4 );
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
 }
-
 .h1welcom {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -16,7 +15,6 @@
     margin-top: 0px;
     position: relative;
 }
-
 .homep {
     text-align: center;
     padding-left: 10px;
@@ -24,12 +22,10 @@
     margin-top: 45px;
     
 }
-
 a {
     text-decoration: none;
     
 }
-
 a:hover {
  color: #3B5998;
     font-family: 'Lato', sans-serif;
@@ -39,8 +35,6 @@ a:hover {
 /*                    ^up or down*/
 /*                         ^how thick the shoadow*/
 }
-
-
 .Bodydiv {
     font-family: 'Lato', sans-serif;
     height: 1000px;
@@ -55,7 +49,6 @@ body {
     background-image: center;
     background-image: 100% 100%;
 }
-  
 .mepic {
     border-radius: 5%;
     position: relative;
@@ -64,18 +57,15 @@ body {
     border: 2px solid #35C0E8;
     
 }
-
 ul {
     list-style-type: none;
     margin-top: -900px;
     margin-left: 30px;
 }
-
 tr {
     border-style: solid;
     border-color: black;
 }
-
 .Divider1 {
     height: 10%;
     width: 50%;
@@ -83,7 +73,6 @@ tr {
     margin-left: 150px;
     position: relative;
 }
-
 .Divider2 {
     height: 2%;
     width: 95%;
@@ -91,7 +80,6 @@ tr {
     top: -5px;
     left: 10px;
 }
-
 .Footer {
     Height: 70px;
     width: 600px;
@@ -101,13 +89,11 @@ tr {
     border-bottom-right-radius: 34px;
     position: relative;
 }
-
 .halo {
     height: 32px;
     width:600px;
     margin-top: -50px;
 }
-
 .halofooter {
     position: relative;
     margin-top: -20px;
