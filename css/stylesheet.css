@@ -3,13 +3,9 @@
 .welcomediv{
     height: 70px;
     width:600px;
-/*    border: 2px solid black;*/
-    background-color: #35C0E8;
+    background-color: rgba(53, 192, 232, .4 );
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    background-image: url("http://www.w8themes.com/wp-content/uploads/2013/11/White-Desktop-Backgrounds.jpg");
-    background-image: 50% 50%;
-/*    background-image: center; */
 }
 
 .h1welcom {
