@@ -49,8 +49,8 @@ body {
     background-image: center;
     background-image: 100% 100%;
 }
-.mepic {
-    border-radius: 5%;
+img.mepic {
+    border-radius: 20px;
     position: relative;
     left: 160px;
     top: -60px;
@@ -156,3 +156,98 @@ tr {
   transform: translateY(5px);
 
 }
+
+#cloud1 {
+    background-color: white;
+    height: 45px;
+    width: 200px;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 200px;
+    border-radius: 30px;
+}
+#cloud2 {
+    background-color: white;
+    height:90px;
+    width:100px;
+    position:absolute;
+    margin-left: 80px;
+    margin-top: -45px;
+    border-radius: 100px
+}
+#cloud3 {
+    background-color: white;
+    height:60px;
+    width: 70px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -30px;
+    border-radius: 100px;
+}
+@-webkit-keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+
+#cloud, #cloud, #cloud {
+  display: inline-block;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#cloud1, #cloud2, #cloud3:hover, #cloud1, #cloud2, #cloud3:focus, #cloud1, #cloud2, #cloud3:active {
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+  -webkit-animation-name: hover;
+  animation-name: hover;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+#cloud2_1 {
+    background-color: black;
+    height: 
+
+
+
+
+
+
+
+
+
+
+
+
+
