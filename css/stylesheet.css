@@ -39,9 +39,7 @@ a:hover {
 /*                    ^up or down*/
 /*                         ^how thick the shoadow*/
 }
-a:visited {
-    color:  ;
-}
+
 
 .Bodydiv {
     font-family: 'Lato', sans-serif;
@@ -94,3 +92,6 @@ tr {
     top: 45px;
     left: 15px;
 }
+
+
+
