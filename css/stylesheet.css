@@ -49,7 +49,6 @@ a:hover {
     border-radius: 5%;
     margin: auto;
     
-    
 }
 body {
     background-image: url("http://www.w8themes.com/wp-content/uploads/2013/11/White-Desktop-Backgrounds.jpg");
@@ -115,4 +114,18 @@ tr {
     height:40px;
     width: 600px;
 }
-
+/*Float animation for Nashville Link*/
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.float:hover, .float:focus, .float:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
