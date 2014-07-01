@@ -64,6 +64,8 @@ body {
     position: relative;
     left: 160px;
     top: -15px;
+    border: 2px solid #35C0E8;
+    
 }
 
 ul {
