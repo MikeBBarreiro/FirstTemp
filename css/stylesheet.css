@@ -93,5 +93,12 @@ tr {
     left: 15px;
 }
 
-
+.Footer {
+    Height: 70px;
+    width: 600px;
+    background-color: rgba(53, 192, 232, .4 );
+    margin-top: 200px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
 
