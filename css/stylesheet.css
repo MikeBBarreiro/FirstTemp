@@ -61,7 +61,7 @@ body {
     border-radius: 5%;
     position: relative;
     left: 160px;
-    top: -15px;
+    top: -20px;
     border: 2px solid #35C0E8;
     
 }
@@ -80,7 +80,7 @@ tr {
 .Divider1 {
     height: 10%;
     width: 50%;
-    top: 35px;
+    top: 20px;
     margin-left: 150px;
     position: relative;
 }
@@ -90,15 +90,29 @@ tr {
     width: 95%;
     position: relative;
     top: 45px;
-    left: 15px;
+    left: 10px;
 }
 
 .Footer {
     Height: 70px;
     width: 600px;
     background-color: rgba(53, 192, 232, .4 );
-    margin-top: 200px;
+    margin-top: 183px;
     border-bottom-left-radius: 34px;
     border-bottom-right-radius: 34px;
+    position: relative;
+}
+
+.halo {
+    height: 32px;
+    width:600px;
+    margin-top: -50px;
+}
+
+.halofooter {
+    position: relative;
+    margin-top: -20px;
+    height:40px;
+    width: 600px;
 }
 
