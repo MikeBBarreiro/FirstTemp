@@ -236,11 +236,91 @@ tr {
 }
 
 #cloud2_1 {
-    background-color: black;
-    height: 
+    background-color: white;
+    height: 50px;
+    width: 220px;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 955px;
+    margin-top: 400px;
+}
+#cloud2_2 {
+    background-color: white;
+    height:95px;
+    width: 100px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -60px;
+    border-radius: 100px;
+}
+#cloud2_3 {
+    background-color: white;
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -37px;
+    border-radius: 100px;
+}
+#cloud3_4 {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top:-75px;
+    border-radius: 100px;
+}
+@-webkit-keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
 
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
 
+@keyframes hover {
+  50% {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+  }
 
+  100% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+
+#cloud2_1, #cloud2_2, #cloud2_3, #cloud2_4 {
+  display: inline-block;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+#cloud2_1, #cloud2_2, #cloud2_3, #cloud2_4:hover, #cloud2_1, #cloud2_2, #cloud2_3, #cloud2_4:focus, #cloud2_1, #cloud2_2, #cloud2_3, cloud2_4:active {
+  -webkit-transform: translateY(-6px);
+  transform: translateY(-6px);
+  -webkit-animation-name: hover;
+  animation-name: hover;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
 
 
 
