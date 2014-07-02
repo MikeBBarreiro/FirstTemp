@@ -385,8 +385,8 @@ tr {
 
 #cloud3_1, #cloud3_2, #cloud3_3, #cloud3_4 {
   display: inline-block;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 1.5s;
+  transition-duration: 1.5s;
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transform: translateZ(0);
@@ -410,6 +410,11 @@ tr {
   animation-direction: alternate;
 }
 
+.fa.fa-jsfiddle{
+    margin-left: 270px;
+    margin-top: -18px;
+    position: relative;
+}
 
 
 
