@@ -393,15 +393,15 @@ tr {
   transform: translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-#cloud3_1, #cloud3_2, #cloud3_3, #cloud3_4:hover, #cloud3_1, #cloud3_2, #cloud3_3, #cloud3_4:focus, #cloud3_1, #cloud3_2, #cloud3_3, cloud3_4:active {
-  -webkit-transform: translateY(-6px);
-  transform: translateY(-6px);
+#cloud3_1, #cloud3_2, #cloud3_3, #cloud3_4:hover, #cloud3_1, #cloud3_2, #cloud3_3, #cloud3_4:focus, #cloud3_1, #cloud3_2, #cloud3_3, #cloud3_4:active {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
   -webkit-animation-name: hover;
   animation-name: hover;
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
